@@ -1,0 +1,4 @@
+upload files from a folder 'template' to web server or local server to test
+
+
+Important!  Twitter , Reservation ,  Subscribe  and Contact form work - only on a local server or host.

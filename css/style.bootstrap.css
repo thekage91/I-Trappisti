@@ -1,0 +1,27 @@
+#subscribe .form-control{
+
+	height: 40px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+.btn{
+	
+	border: none;
+	background: rgb(197, 157, 95);
+	color: #fff;
+	width: 50%;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+.set-components li{
+
+	font-size: 20px;
+}
+
+.top30{
+
+	margin-top: 30px;
+}
