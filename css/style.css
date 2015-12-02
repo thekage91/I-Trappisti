@@ -2523,10 +2523,10 @@ article h4 a:hover {
 .promotion-title h4 {
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 40px;
 	letter-spacing: 2px;
 	text-align:left;
-	padding-bottom: 12px;
+	padding-bottom: 0px;
 	float:left;
 }
 .promotion-title span {
@@ -2543,7 +2543,7 @@ article h4 a:hover {
 	display: table-cell; 
 	white-space: nowrap; 
 	width: 10%; 
-	line-height:15px;   
+	line-height:25px;   
 	text-align:left;
 }
 .promotion-desc { 
@@ -2552,12 +2552,12 @@ article h4 a:hover {
 	font-weight:bold; 
 	font-style:italic; 
 	text-align:left; 
-	font-size:20px;
+	font-size:18px;
 } 
 .promotion-dot { 
-	display: table-cell;
-	width: 88%; 
+	width: 70%; 
 	border-bottom: 1px dotted #fff;
+	margin: auto;
 }
 .promotion-price { 
 	text-decoration: line-through; 
