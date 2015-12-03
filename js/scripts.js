@@ -515,10 +515,11 @@ function initLambert() {
         $("#message").slideUp(1500);
     });
     $("#resdate").ionDatePicker();
-	// subscribe form------------------
+	
+    // subscribe form newsletter------------------
     $("#subscribe").ajaxChimp({
-        language: "eng",
-        url: "http://kwst.us9.list-manage1.com/subscribe/post?u=992ebe1f14864e841317ca145&id=163340d9c8"
+        language: "it",
+        url: "http://passparyou.us11.list-manage.com/subscribe?u=baa6a96ac00514e2d994c55e2&id=22150bdcfa"
     });
     $.ajaxChimp.translations.eng = {
         submit: "Submitting...",
