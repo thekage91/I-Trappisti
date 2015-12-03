@@ -3,7 +3,7 @@
 <head>
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
-    <title>I Trappisti</title>
+    <title>Sapore di Birra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow"/>
     <meta name="keywords" content=""/>
@@ -32,20 +32,17 @@
             <div class="header-inner">
                 <div class="container">
                     <!--navigation social links-->
-                    <div class="nav-social">
+                    <div hidden class="nav-social">
                         <ul>
                             <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-tumblr"></i></a></li>
                         </ul>
                     </div>
                     <!--logo-->             
                     <div class="logo-holder">
                         <a href="index.html">
-                            <img src="images/logo.png" class="respimg logo-vis" alt="">
-                            <img src="images/logo2.png" class="respimg logo-notvis" alt="">
+                            <img src="images/logo_official.png" class="respimg logo-vis" alt="">
+                            <img src="images/logo_official.png" class="respimg logo-notvis" alt="">
                         </a>
                     </div>
                     <!--Navigation -->
@@ -53,12 +50,12 @@
                         <nav>
                             <ul>
                                 <!-- Cambiare metteno le ancore --> 
-                                <li><a href="#top" class="act-link">Home</a></li>
-                                <li><a href="#idee_regalo">Idee regalo</a></li>
-                                <li><a href="#set_settimana">Set della settimana</a></li>
-                                <li><a href="#testimonials">Testimonials</a></li>
-                                <li><a href="#iscriviti">Iscriviti</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a class="custom-scroll-link" href="#top" class="act-link">Home</a></li>
+                                <li><a class="custom-scroll-link" href="#idee_regalo">Idee regalo</a></li>
+                                <li><a class="custom-scroll-link" href="#set_settimana">Set della mese</a></li>
+                                <li><a class="custom-scroll-link" href="#testimonials">Dicono di noi</a></li>
+                                <li><a class="custom-scroll-link" href="#iscriviti">Iscriviti</a></li>
+                                <li class="hidden"><a href="#contact">Contattaci</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -88,7 +85,7 @@
                         </div>
                     </div>
                     <div class="hero-link">
-                        <a class="custom-scroll-link" href="#sec1"><i class="fa fa-angle-double-down"></i></a>
+                        <a class="custom-scroll-link" href="#idee_regalo"><i class="fa fa-angle-double-down"></i></a>
                     </div>
                 </div>
             </div>
@@ -113,11 +110,11 @@
                             <!--about text-->
                             <div class="section-title">
                                 <h3>La nostra missione</h3>
-                                <h4 class="decor-title">Our story</h4>
                                 <div class="separator color-separator"></div>
                             </div>
                             <p class="text-center col-md-6 col-md-offset-3" style="font-size: 20px;"> Sapore di birra nasce con la consapevolezza di quanto le birre artigianali siano difficili da reperire localmente, è per questo che ogni mese
-                            ci impegneremo nel fornirvi la miglior selezione di birre che potrete gustare.
+                            ci impegneremo nel fornirvi la miglior selezione di birre che potrete gustare. <br><br>
+                            Vi basterà ordinare dal nostro sito per ricevere a casa il set composto dalle birre che selezioneremo e se vuoi ricevere un set precedente sfoglia il catalogo per ordinarlo.
                             </p>
                         </div>
                     </div>
@@ -133,6 +130,7 @@
                                     <h4 class="decor-title">Set con bicchiere da degustazione</h4>
                                     <div class="separator color-separator"></div>
                                 </div>
+
                                 <ul class="set-components">
                                     <li>Sick Pils</li>
                                     <li>Na' Birretta Rossa</li>
@@ -141,9 +139,9 @@
                                 </ul>
 
                                 <div class="promotion-prices">
-                                    <span class="promotion-price">18€</span>
-                                    <span class="promotion-discount">15€</span>
-                                </div>       
+                                    <span class="promotion-price">22€</span>
+                                    <span class="promotion-discount">20€</span>
+                                </div>
 
                                 <button class="btn btn-lg btn-default top30">Ordina</button>
                             </div>
@@ -210,6 +208,7 @@
                                     <h4 class="decor-title">Confenzione senza bicchiere</h4>
                                     <div class="separator color-separator"></div>
                                 </div>
+
                                 <ul class="set-components">
                                     <li>Sick Pils</li>
                                     <li>Na' Birretta Rossa</li>
@@ -217,9 +216,9 @@
                                 </ul>
 
                                 <div class="promotion-prices">
-                                    <span class="promotion-price">22€</span>
-                                    <span class="promotion-discount">20€</span>
-                                </div>
+                                    <span class="promotion-price">18€</span>
+                                    <span class="promotion-discount">15€</span>
+                                </div>       
 
                                 <button class="btn btn-lg btn-default top30">Ordina</button>
 
@@ -349,7 +348,7 @@
                     </div>
                 </section>
 
-                <section class="about-section">
+                <section class="about-section" id="testimonials">
                     <div class="container">
                         <div class="section-title">
                             <h3>Cosa pensano di noi</h3>
@@ -385,7 +384,7 @@
                 </section>
                 <!--section end-->
                 <!--=============== testimonials ===============-->
-                <section class="parallax-section" id="testimonials">
+                <section class="parallax-section" id="iscriviti">
                     <div class="bg bg-parallax" style="background-image:url(images/bg/1.jpg)" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
                     <div class="overlay"></div>
                     <div class="container">
@@ -412,13 +411,10 @@
                             <!--footer social links-->
                             <div class="col-md-12">
                                 <div class="footer-social">
-                                    <h3>Find us</h3>
+                                    <h3>Vieni a trovarci su</h3>
                                     <ul>
                                         <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
-                                        <li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -428,7 +424,7 @@
                 <!--to top / privacy policy-->
                 <div class="to-top-holder">
                     <div class="container">
-                        <p> <span> &#169; I Trappisti 2015 . </span> All rights reserved.</p>
+                        <p> <span> &#169; Sapore di Birra 2015 . </span> All rights reserved.</p>
                         <div class="to-top"><span>Torna su </span><i class="fa fa-angle-double-up"></i></div>
                     </div>
                 </div>
