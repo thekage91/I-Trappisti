@@ -518,7 +518,7 @@ function initLambert() {
 	
     // subscribe form newsletter------------------
     $("#subscribe").ajaxChimp({
-        language: "it",
+        language: "eng",
         url: "http://passparyou.us11.list-manage.com/subscribe?u=baa6a96ac00514e2d994c55e2&id=22150bdcfa"
     });
     $.ajaxChimp.translations.eng = {
