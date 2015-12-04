@@ -517,10 +517,20 @@ function initLambert() {
     $("#resdate").ionDatePicker();
 	
     // subscribe form newsletter------------------
+    
+    var url_newsletter = "http://passparyou.us11.list-manage.com/subscribe/post?u=baa6a96ac00514e2d994c55e2&&id=22150bdcfa";
+    //http://kwst.us9.list-manage1.com/subscribe/post?u=992ebe1f14864e841317ca145&id=163340d9c8
+    
+    $('#newsletter-form').ajaxChimp({
+        language: "it",
+        url: url_newsletter
+    });
+    /*
     $("#subscribe").ajaxChimp({
         language: "eng",
         url: "http://passparyou.us11.list-manage.com/subscribe?u=baa6a96ac00514e2d994c55e2&id=22150bdcfa"
-    });
+    });*/
+
     $.ajaxChimp.translations.eng = {
         submit: "Submitting...",
         0: '<i class="fa fa-check"></i> We will be in touch soon!',
@@ -530,6 +540,18 @@ function initLambert() {
         4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
         5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
     };
+
+    $.ajaxChimp.translations.it = {
+        submit: "Submitting...",
+        0: '<i class="fa fa-check"></i> Controlla la tua mail per la conferma!',
+        1: '<i class="fa fa-warning"></i> Devi inserire un email valida.',
+        2: '<i class="fa fa-warning"></i> Email non valida.',
+        3: '<i class="fa fa-warning"></i> Email non valida.',
+        4: '<i class="fa fa-warning"></i> Email non valida.',
+        5: '<i class="fa fa-warning"></i> Email non valida.'
+    };
+
+
     $(window).scroll(function() {
         if ($(this).scrollTop() > 150) {
             $("header").addClass("sticky");

@@ -1,9 +1,23 @@
-#subscribe .form-control{
+#newsletter-form .form-control{
 
 	height: 40px;
 	background: rgba(255, 255, 255, 0.8);
 	border-radius: 4px;
 	font-size: 20px;
+}
+
+.order-form .form-control{
+
+	margin-bottom: 10px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+.order-form .indicates-required{
+
+	font-size: 10px;
 }
 
 .btn{
@@ -21,7 +35,24 @@
 	font-size: 20px;
 }
 
+.top20{
+
+	margin-top: 20px;
+}
+
 .top30{
 
 	margin-top: 30px;
+}
+
+.label-price{
+
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+.label-price .promotion-discount{
+
+	font-size: 50px;
+	margin-left: 10px;
 }
