@@ -71,6 +71,17 @@
   -moz-animation-delay: 2s;
 }
 
+
+@media all and (max-width: 768px) {
+    #background {
+        display: none;
+    }
+
+    body{
+
+    	background: white;
+    }
+}
 /*
 #content{
 	
