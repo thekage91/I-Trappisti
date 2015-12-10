@@ -105,3 +105,11 @@
 
 	margin: 0 auto;
 }
+
+#content {
+  -webkit-animation-duration: 22s;
+  -webkit-animation-delay: 2s;
+
+  -moz-animation-duration: 22s;
+  -moz-animation-delay: 2s;
+}

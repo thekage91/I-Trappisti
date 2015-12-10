@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-	setTimeout(function(){ 
+	/*setTimeout(function(){ 
 
 		$('#content').removeClass('hidden');
-		$('#content').addClass('animated fadeIn'); 
+		$('#content').addClass('animated fadeInUp'); 
 
-	}, 18000);
+	}, 1000);*/
 })
