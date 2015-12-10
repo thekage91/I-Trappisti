@@ -291,7 +291,11 @@
             <button class="hidden btn btn-lg btn-default">Prenotalo</button>
         </div>
     </section>
-    <!--section end-->              
+    <!--section end-->       
+
+    <section>
+       
+    </section>       
 
     <section class="about-section" id="testimonials">
         <div class="container">
@@ -384,9 +388,36 @@
                             <span class="promotion-discount hidden price-bicchiere">20€</span>
                         </label> 
 
+                         
 
                         <div class="clear">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-default top20">
+                            <input type="submit" value="Paga alla consegna" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-default top20">
+                            
+                            <form id="pay_form_bicchiere" class="hidden" action="/charge" method="POST">
+                              <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="pk_test_D6tPQKQYKsjstca84Sb6k6VM"
+                                data-image="/images/logo_official.png"
+                                data-name="Saporedibirra.com"
+                                data-description="Set con bicchiere da degustazione"
+                                data-currency="EUR"
+                                data-amount="2000"
+                                data-locale="auto">
+                              </script>
+                            </form>
+
+                            <form id="pay_form_semplice" class="hidden" action="/charge" method="POST">
+                              <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-key="pk_test_D6tPQKQYKsjstca84Sb6k6VM"
+                                data-image="images/logo_official.png"
+                                data-name="Saporedibirra.com"
+                                data-description="Set semplice"
+                                data-currency="EUR"
+                                data-amount="1500"
+                                data-locale="auto">
+                              </script>
+                            </form>
                         </div>
                     </div>
                 </form>
