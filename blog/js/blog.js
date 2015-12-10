@@ -7,13 +7,6 @@ $(document).ready(function(){
 
 	}, 1000);*/
 
-	var ua = navigator.userAgent.toLowerCase();
-	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-	
-	if(isAndroid) {
-	    document.getElementById("content").innerHTML="";
-	}
-
 	$('#subscribe-form').ajaxChimp({
 		language: 'it',
 	    url: 'http://passparyou.us11.list-manage.com/subscribe/post?u=baa6a96ac00514e2d994c55e2&amp;id=00137f3e7c'
