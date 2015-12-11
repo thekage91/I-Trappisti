@@ -95,8 +95,8 @@ sfondo_mobile
 	  -moz-animation-duration: 0s;
 	  -moz-animation-delay: 0s;
 
-	  background: url(img/sfondo_mobile.jpg) no-repeat;
-	  background-size: cover;
+	  /*background: url(img/sfondo_mobile.jpg) no-repeat;
+	  background-size: cover;*/
 	}
 } 
 /*
