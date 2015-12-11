@@ -83,6 +83,11 @@ sfondo_mobile
     	background: white;
     }
 
+    .text-bottom{
+
+		margin-top: 0%;
+	}
+
     #content {
 	  -webkit-animation-duration: 0s;
 	  -webkit-animation-delay: 0s;
@@ -93,7 +98,6 @@ sfondo_mobile
 	  background: url(img/sfondo_mobile.jpg) no-repeat;
 	  background-size: cover;
 	}
-
 } 
 /*
 #content{
