@@ -71,8 +71,6 @@
   -moz-animation-delay: 2s;
 }
 
-sfondo_mobile
-
 @media(max-width: 768px) {
     #background {
         display: none;
